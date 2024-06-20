@@ -17,18 +17,18 @@
         <h1>Register for TechCon 2024</h1>
     </header>
     <main>
-        <form action="">
+        <form action="https://register-demo.freecodecamp.org" method="post">
             <label for="name">
-                Name: <input id="name" type="text">
+                Name: <input id="name" name="name" type="text">
             </label>
             <label for="email">
-                email: <input id="email" type="email" required>
+                Email: <input id="email" name="email" type="email">
             </label>
             <label for="password">
-                Password: <input id="password" type="password">
+                Password: <input id="password" name="password" type="password">
             </label>
             <input type="checkbox">Terms and conditions
-            <input type="submit" value="Submit">
+            <button type="submit" >Submit</button>
         </form>
     </main>
     <footer>
