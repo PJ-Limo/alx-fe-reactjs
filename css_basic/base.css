@@ -69,10 +69,10 @@ header {
 	transition: border-bottom-color 1s ease;
 }
 header a {
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(255, 255, 255, 0.8);
 }
 aside {
-	background: #FAFAFA;
+	background: #e1ecf4;
 }
 aside p {
 	border: 1px solid #bbb;
@@ -132,7 +132,7 @@ header li a {
 	margin: 0 10px;
 }
 header li.logo {
-	font-size: 36px;
+	font-size: 20px;
 }
 header a {
 	text-decoration: none;
@@ -150,8 +150,8 @@ aside p {
 /* Footer */
 
 footer {
-	padding: 5px 15px;
-	height: 80px;
+	padding: 15px 15px;
+	height: 100px;
 }
 
 
