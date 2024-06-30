@@ -401,10 +401,7 @@ footer p {
     padding-bottom: 20px;
     text-align: center;
 }
-  
-  .socialicons {
-    text-align: right;
-  }
+
   
   .socialicons .facebook, .twitter, .instagram {
     display: inline-block;
@@ -421,6 +418,7 @@ footer p {
     background-image: url(/css_advanced/images/Facebook_White.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 1000px;
   }
   
   .socialicons .twitter {
