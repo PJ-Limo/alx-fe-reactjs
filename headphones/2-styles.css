@@ -145,3 +145,136 @@ button{
 button:hover{
     background-color: rgba(255, 101, 101, 0.9);
 }
+
+.second{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.second2 h2{
+    font-family: "SourceSans2" , sans-serif;
+    margin-bottom: 35px;
+    font-size: 30px;
+    color: #071629;
+}
+
+.second2 p{
+    color: #071629;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 0 11% 5% 11%;
+    font-family: "SourceSans3", sans-serif;
+}
+
+.second2{
+    text-align: center;
+    font-family: "SourceSans3", sans-serif;
+}
+
+.icons{
+    max-width: 1000px;
+    text-align: center;
+    margin : 0 auto;
+    display : flex;
+    justify-content: space-between
+}
+.sound{
+    width: 65px;
+    padding-bottom: 15%;
+}
+
+.video{
+    width: 45px;
+    padding-bottom: 15%;
+}
+
+.music{
+    width: 45px;
+    padding-bottom: 15%;
+}
+
+.hearing{
+    width: 45px;
+    padding-bottom: 15%;
+}
+
+.iconname{
+ color: #071629;
+ font-family: "SourceSans2" , sans serif;
+ font-size: 20px;
+ text-align: center;
+ padding-bottom: 10%;
+}
+
+.icontext{
+ color: #071629;
+ font-family: "SourceSans3" , sans serif;
+ font-size: 14px;
+ text-align: center;
+ line-height: 1.5;
+}
+
+.third{ 
+    width: 100%;
+    background-image: url(/images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.third2 h2{
+    font-family: "SourceSans2" , sans-serif;
+    margin-bottom: 35px;
+    font-size: 30px;
+    color: white;
+    font-family: "SourceSans2" , sans-serif;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+.third2 p{
+    color: white;
+    font-family: "SourceSans3" , sans-serif;
+    padding-bottom: 2%;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 0 11% 5% 11%;
+}
+
+.stats {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    height: 190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+  .stats h3{
+    font-size: 45px;
+    font-family: "SourceSans1", sans-serif;
+
+  }
+
+  .stats p{
+    font-size: 15px;
+    font-family: "SourceSans3", sans-serif;
+  }
+
+.poly1{
+    width: 50%;
+    margin-bottom: 80px;
+  }
+
+.stats span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
