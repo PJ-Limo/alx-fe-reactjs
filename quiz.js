@@ -1,22 +1,20 @@
 function checkAnswer() {
     //correct answer
-    const correctAnswer = "4";
+    let correctAnswer = "4";
 
     //what did user pick
-    const userAnswer = document.querySelector('input[name = "quiz"] : checked');
+    let userAnswer = document.querySelector('input[name = "quiz"] : checked').value;
+    console.log(userAnswer);
 
-    if (userAnswer ==correctAnswer) {
-        document.getElementById("feedback").textContent = "Correct! Well done.";
+    if (userAnswer === correctAnswer) {
+        let feedback = document.getElementById("feedback");
+        feedback.textContent = "Correct! Well done.";
     }
 
     else {
-        document.getElementById("feedback").textContent = "That's incorrect. Try again!";
-    }
-
-    else {
-        document.getElementById("feedback").textContent = "Please select an answer.";
+      feedback.textContent = "That's incorrect. Try again!";
     }
 }
 
-const submitButton = document.getElementById("submit-answer");
+let submitButton = document.querySelector("#submit-answer");
 submitButton.addEventListener("click", checkAnswer);
