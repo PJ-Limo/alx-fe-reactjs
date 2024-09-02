@@ -1,6 +1,7 @@
 import WelcomeMessage from './components/WelcomeMessage'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
+import UserProfile from './components/UserProfile'
 import Footer from './components/Footer'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -13,11 +14,14 @@ function App() {
   return (
     <>
       <div>
+      <h1>UserProfile</h1>
+      <UserProfile name="Bruno" age="22" bio="Loves to DJ and photography" />
+      </div>
         <WelcomeMessage />
         <Header />
         <MainContent />
         <Footer />
-      </div>
+        <UserProfile />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
