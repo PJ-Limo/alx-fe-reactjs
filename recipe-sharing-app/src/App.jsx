@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import RecipeDetails from './components/RecipeDetails';
 import AddRecipeForm from './components/AddRecipeForm';
 import RecipeList from './components/RecipeList';
-import RecommendationsList from './components/RecommendationsList';
-import FavoritesList from './components/FavoritesList';
 import './App.css';
 
 function App() {
