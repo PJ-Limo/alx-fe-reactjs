@@ -1,35 +1,35 @@
-// src/components/RecipeList.jsx
-import React, { useEffect } from 'react';
-import useRecipeStore from '../components/recipeStore';
-import { Link } from 'react-router-dom';
+ // AddRecipeForm component
+ import { useState } from 'react';
+ import { useRecipeStore } from '../components/recipeStore';
 
-const RecipeList = () => {
-  const { recipes, filteredRecipes, filterRecipes } = useRecipeStore(state => ({
-    recipes: state.recipes,
-    filteredRecipes: state.filteredRecipes,
-    filterRecipes: state.filterRecipes
-  }));
+ const AddRecipeForm = () => {
+   const addRecipe = useRecipeStore(state => state.addRecipe);
+   const [title, setTitle] = useState('');
+   const [description, setDescription] = useState('');
 
-  useEffect(() => {
-    filterRecipes(); // Filter recipes whenever the search term changes
-  }, [filterRecipes]);
+   const handleSubmit = (event) => {
+     event.preventDefault();
+     addRecipe({ id: Date.now(), title, description });
+     setTitle('');
+     setDescription('');
+   };
 
-  return (
-    <div>
-      {filteredRecipes.length > 0 ? (
-        filteredRecipes.map(recipe => (
-          <div key={recipe.id}>
-            <h3>
-              <Link to={`/recipe/${recipe.id}`}>{recipe.title}</Link>
-            </h3>
-            <p>{recipe.description}</p>
-          </div>
-        ))
-      ) : (
-        <p>No recipes found</p>
-      )}
-    </div>
+   return (
+    <form onSubmit={handleSubmit}>
+      <input
+        type="text"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        placeholder="Title"
+      />
+      <textarea
+        value={description}
+        onChange={(e) => setDescription(e.target.value)}
+        placeholder="Description"
+      />
+      <button type="submit">Add Recipe</button>
+    </form>
   );
 };
 
-export default RecipeList;
+export default AddRecipeForm;
