@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+      "image": "https://images.unsplash.com/photo-1608162340953-3342f396ba7e",
+      "ingredients": ["Spaghetti", "Eggs", "Pecorino cheese", "Bacon", "Black pepper"],
+      "instructions": ["Cook spaghetti. Mix eggs and cheese. Fry bacon. Combine everything and season with pepper."]
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+      "image": "https://images.unsplash.com/photo-1595433707802-e63b8db67c8d",
+      "ingredients": ["Chicken", "Yogurt", "Tomato sauce", "Cream", "Spices"],
+      "instructions": ["Marinate chicken. Grill it. Make sauce with tomato, cream, and spices. Combine and simmer."]
+    },
+    {
+      "id": 3,
+      "title": "Margherita Pizza",
+      "summary": "An authentic Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil leaves.",
+      "image": "https://images.unsplash.com/photo-1594007652690-e4aa1a15f636",
+      "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella", "Fresh basil", "Olive oil"],
+      "instructions": ["Spread sauce on dough. Add cheese and bake. Top with basil and olive oil."]
+    },
+    {
+      "id": 4,
+      "title": "Beef Tacos",
+      "summary": "Traditional Mexican tacos filled with spiced beef, salsa, and cheese.",
+      "image": "https://images.unsplash.com/photo-1618597269579-9e1b777bf2e2",
+      "ingredients": ["Tortillas", "Ground beef", "Cheese", "Salsa", "Lettuce"],
+      "instructions": ["Cook beef with spices. Fill tortillas with beef, salsa, cheese, and lettuce."]
+    },
+    {
+      "id": 5,
+      "title": "Avocado Toast",
+      "summary": "A quick and healthy snack made with mashed avocados, olive oil, salt, and pepper on toasted bread.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "ingredients": ["Avocado", "Bread", "Olive oil", "Salt", "Pepper"],
+      "instructions": ["Mash avocado. Spread on toasted bread. Drizzle with olive oil and season with salt and pepper."]
+    },
+    {
+      "id": 6,
+      "title": "Caesar Salad",
+      "summary": "A green salad of romaine lettuce and croutons dressed with lemon juice, olive oil, and parmesan cheese.",
+      "image": "https://images.unsplash.com/photo-1566843972270-985fdb87d273",
+      "ingredients": ["Romaine lettuce", "Croutons", "Parmesan", "Caesar dressing", "Lemon juice"],
+      "instructions": ["Toss lettuce with croutons, dressing, and parmesan. Serve chilled."]
+    },
+    {
+      "id": 7,
+      "title": "Vegetable Stir Fry",
+      "summary": "A medley of fresh vegetables stir-fried with soy sauce, garlic, and ginger.",
+      "image": "https://images.unsplash.com/photo-1608211502972-e62003f0d087",
+      "ingredients": ["Broccoli", "Carrots", "Bell peppers", "Soy sauce", "Garlic"],
+      "instructions": ["Stir-fry vegetables with garlic and ginger. Add soy sauce and serve hot."]
+    },
+    {
+      "id": 8,
+      "title": "Banana Pancakes",
+      "summary": "Fluffy pancakes made with mashed bananas and served with maple syrup.",
+      "image": "https://images.unsplash.com/photo-1600891964584-51fc1544c616",
+      "ingredients": ["Bananas", "Flour", "Milk", "Eggs", "Maple syrup"],
+      "instructions": ["Mix mashed bananas with batter. Cook pancakes and serve with syrup."]
+    }
+]
+  
